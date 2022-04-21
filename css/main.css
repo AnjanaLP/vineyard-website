@@ -104,3 +104,21 @@ body {
 .header-nav > li:first-child a:hover {
   color: #6c757d;
 }
+
+/* FOOTER STYLES */
+.footer {
+  background-color: #f8f9fa;
+  padding: 10vh 0 15vh;
+  text-align: center;
+}
+.footer-logo img {
+  width: 50px;
+}
+.footer h3 {
+  color: #000;
+  padding-top: 1.5em;
+}
+.footer-nav li {
+  display: inline-block;
+  margin: 2em 1em 0;
+}
