@@ -241,4 +241,10 @@ h2 ~ p {
   .visit-section {
     width: auto;
   }
+  .hero-content h1 {
+    font-size: 8vw;
+  }
+  .hero-content h3 {
+    font-size: 4vw;
+  }
 }
