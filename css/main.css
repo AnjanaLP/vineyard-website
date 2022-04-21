@@ -162,3 +162,22 @@ body {
   font-weight: 200;
   margin-bottom: 0.5em;
 }
+
+/* ABOUT STYLES */
+.about-section {
+  background-color: rgba(119, 136, 153, 0.3);
+  color: #6c757d;
+  padding: 7vh 30px;
+}
+.about-title {
+  font-size: 2em;
+  text-align: left;
+  font-weight: 200;
+  padding-bottom: 30px;
+}
+.about-copy {
+  font-size: 1em;
+}
+.about-copy > p ~ p {
+  margin-top: 20px;
+}
