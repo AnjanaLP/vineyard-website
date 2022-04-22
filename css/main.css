@@ -49,7 +49,7 @@ a img {
 
 /* GLOBAL STYLES*/
 html {
-  box-shadow: 0 0 0 30px #f8f9fa inset;
+  box-shadow: 0 0 0 30px black inset;
   padding: 0 30px;
 }
 body {
@@ -68,7 +68,7 @@ h2 ~ p {
 
 /* HEADER STYLES */
 .header {
-  background-color: #f8f9fa;
+  background-color: #000;
   position: fixed;
   width: 100%;
   z-index: 20;
@@ -84,6 +84,7 @@ h2 ~ p {
   width: 10vh;
 }
 .header-logo img{
+  background-color: #fff;
   width: 7vh;
 }
 .header-nav {
@@ -98,7 +99,7 @@ h2 ~ p {
   padding-left: 1em;
 }
 .nav-links a {
-  color: #000;
+  color: #fff;
   font-size: 0.8em;
   font-weight: bold;
   text-decoration: none;
@@ -106,27 +107,23 @@ h2 ~ p {
 }
 .nav-links a:hover,
 .nav-link a:active {
-  color: #6c757d;
-}
-.header-nav > li:first-child a {
-  color: #6c757d;
-}
-.header-nav > li:first-child a:hover {
-  color: #6c757d;
+  font-weight: normal;
 }
 
 /* FOOTER STYLES */
 .footer {
-  background-color: #f8f9fa;
+  background-color: black;
   padding: 10vh 0 15vh;
   text-align: center;
 }
 .footer-logo img {
+  background-color: white;
   width: 50px;
 }
 .footer h3 {
-  color: #000;
+  color: #fff;
   font-size: 0.8em;
+  font-weight: bold;
   padding-top: 1.5em;
 }
 .footer-nav li {
