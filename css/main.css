@@ -242,18 +242,40 @@ h2 ~ p {
   width: 100%;
 }
 
-/* MOBILE STYLES */
 @media (max-width: 800px) {
-  .visit-box {
-    width: 100%;
+  /* GLOBAL STYLES */
+  html {
+    box-shadow: none;
+    padding: 0;
   }
-  .visit-section {
-    width: auto;
+
+  /* HEADER STYLES */
+  .header-nav {
+    padding: 2vh 1em 0 0;
   }
+  .header-nav > li {
+    margin-left: 0.25em;
+  }
+  .header-nav > li ~ li {
+    padding-left: 0.25em;
+  }
+  .header-logo {
+    left: auto;
+  }
+
+  /* HERO STYLES */
   .hero-content h1 {
     font-size: 8vw;
   }
   .hero-content h3 {
     font-size: 4vw;
+  }
+
+  /* VISIT STYLES */
+  .visit-box {
+    width: 100%;
+  }
+  .visit-section {
+    width: auto;
   }
 }
