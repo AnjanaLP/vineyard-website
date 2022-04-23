@@ -160,7 +160,7 @@ h2 ~ p {
   width: 0;
 }
 .hero-home {
-  background-image: url(/images/vineyard.jpg);
+  background-image: url(../images/vineyard.jpg);
 }
 .hero-content {
   color: #fff;
