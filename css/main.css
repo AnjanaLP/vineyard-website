@@ -51,7 +51,10 @@ a img {
 html {
   box-shadow: 0 0 0 30px black inset;
   padding: 0 30px;
+  scroll-behavior: smooth;
+  scroll-padding-top: 10vh;
 }
+
 body {
   display: flex;
   flex-direction: column;
@@ -182,7 +185,7 @@ h2 ~ p {
 .about-section {
   background-color: rgba(119, 136, 153, 0.3);
   color: #6c757d;
-  padding: 7vh 30px;
+  padding: 4rem 30px;
 }
 .about-title {
   font-size: 2em;
@@ -203,25 +206,27 @@ h2 ~ p {
 }
 .visit-wrapper {
   overflow: hidden;
+  padding-bottom: 4rem;
 }
 .visit-copy {
   font-size: 0.85em;
 }
 .visit-section {
   color: #6c757d;
-  margin: 5rem auto;
+  margin: auto;
   width: 90vw;
 }
 .visit-section h2 {
   font-size: 2em;
   font-weight: 200;
   margin-bottom: 1.5rem;
+  padding-top: 4rem;
   text-align: center;
 }
 .visit-box {
   box-sizing: border-box;
   float: left;
-  margin: 6rem 0 0;
+  margin: 4rem 0 0;
   padding: 0 3%;
   width: 33%;
 }
