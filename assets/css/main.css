@@ -266,10 +266,14 @@ h2 ~ p {
   }
 
   /* ABOUT STYLES */
+  .about-section {
+    flex-direction: column;
+  }
   .about-title {
     font-size: 2em;
+    padding-bottom: 30px;
   }
-
+  
   /* HERO STYLES */
   .hero-content h1 {
     font-size: 8vw;
