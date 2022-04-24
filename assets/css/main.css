@@ -62,6 +62,7 @@ body {
   min-height: 100vh;
 }
 .content-container {
+  display: flex;
   flex-grow: 1;
   padding-top: 10vh;
   width: 100%;
@@ -140,6 +141,28 @@ h2 ~ p {
 .footer-nav li {
   display: inline-block;
   margin: 2em 1em 0;
+}
+
+/* COLUMN STYLES */
+.col-three {
+  display: flex;
+  flex: 1;
+}
+.col {
+  box-sizing: border-box;
+  padding: 2em;
+}
+.col-nav {
+  flex: 0 1 15em;
+}
+.col-content {
+  flex: 1;
+}
+.col-aside {
+  flex: 0 1 20em;
+}
+.col ~ .col {
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 /* HERO STYLES */
@@ -273,7 +296,7 @@ h2 ~ p {
     font-size: 2em;
     padding-bottom: 30px;
   }
-  
+
   /* HERO STYLES */
   .hero-content h1 {
     font-size: 8vw;
