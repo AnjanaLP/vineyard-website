@@ -2,13 +2,29 @@
 layout: default
 ---
 <div class="gallery col-three">
-  <div class="col col-nav">
-    Image navigation
+  <div class="col col-nav gallery-thumbs">
+    <div class="selected-image">
+      <img src="{{ site.baseurl }}/assets/images/red_grapes.jpg" alt="red grapes">
+    </div>
+    <div>
+      <img src="{{ site.baseurl }}/assets/images/white_grapes.jpg" alt="white grapes">
+    </div>
+    <div>
+      <img src="{{ site.baseurl }}/assets/images/orchard.jpg" alt="orchard">
+    </div>
+    <div>
+      <img src="{{ site.baseurl }}/assets/images/main_house.jpg" alt="main house">
+    </div>
+    <div>
+      <img src="{{ site.baseurl }}/assets/images/wine_barrels.jpg" alt="wine barrels">
+    </div>
   </div>
   <div class="col col-content">
-    Chosen image
+    <div class="main-image">
+      <img src="{{ site.baseurl }}/assets/images/red_grapes.jpg" alt="red grapes">
+    </div>
   </div>
-  <div class="col col-aside">
-    Image description
+  <div class="col col-aside image-info">
+    <p>Grapes used for our cabernet, merlot and malbec wines</p>
   </div>
 </div>
