@@ -183,15 +183,18 @@ h2 ~ p {
 
 /* ABOUT STYLES */
 .about-section {
+  align-items: center;
   background-color: rgba(119, 136, 153, 0.3);
   color: #6c757d;
+  display: flex;
   padding: 4rem 30px;
 }
 .about-title {
-  font-size: 2em;
-  text-align: left;
+  font-size: 2.5em;
   font-weight: 200;
+  line-height: 1.3;
   padding-bottom: 30px;
+  padding-right: 30px;
 }
 .about-copy {
   font-size: 1em;
@@ -217,7 +220,7 @@ h2 ~ p {
   width: 90vw;
 }
 .visit-section h2 {
-  font-size: 2em;
+  font-size: 2.5em;
   font-weight: 200;
   margin-bottom: 1.5rem;
   padding-top: 4rem;
@@ -263,6 +266,11 @@ h2 ~ p {
     left: auto;
   }
 
+  /* ABOUT STYLES */
+  .about-title {
+    font-size: 2em;
+  }
+
   /* HERO STYLES */
   .hero-content h1 {
     font-size: 8vw;
@@ -272,6 +280,9 @@ h2 ~ p {
   }
 
   /* VISIT STYLES */
+  .visit-section h2 {
+    font-size: 2em;
+  }
   .visit-box {
     width: 100%;
   }
