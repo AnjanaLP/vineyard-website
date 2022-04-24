@@ -338,4 +338,28 @@ h2 ~ p {
   .visit-section {
     width: auto;
   }
+  /* GALLERY STYLES */
+  .gallery {
+    flex-direction: column;
+  }
+  .col {
+    padding: 1em;
+  }
+  .image-info {
+    flex: 1;
+  }
+  .gallery-thumbs {
+    flex: 1;
+    height: auto;
+    white-space: nowrap;
+    width: 100vw;
+  }
+  .gallery-thumbs > div {
+    display: inline-block;
+  }
+  .gallery-thumbs img {
+    height: 10vh;
+    margin-right: 10px;
+    width: 25vw;
+  }
 }
